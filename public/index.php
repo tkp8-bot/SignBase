@@ -12,10 +12,14 @@
     <title>SignBase</title>
 </head>
 <body>
-    <h1>
-        Hello World!
-    </h1>
-    <script src="dist/script.js"></script>
-    
+    <header>
+        <h1>SignBase</h1>
+    </header>
+
+    <main>
+        fa
+    </main>
+   
+
 </body>
 </html>
