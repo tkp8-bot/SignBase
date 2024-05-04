@@ -1,6 +1,6 @@
 *.log
 .DS_Store
-.idea
+*.idea
 desktop.ini
 node_modules/
 dist/
