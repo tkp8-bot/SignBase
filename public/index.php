@@ -13,12 +13,12 @@
 <body>
     <header>
         <nav>
-            
+            <div>hello</div>
         </nav>
     </header>
 
     <main>
-        
+        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. A tempora sed eos fugiat, consequatur omnis modi repudiandae cum. Expedita quae tenetur molestiae similique. Assumenda sint ipsa possimus aperiam iste non.</p>
     </main>
    
 
