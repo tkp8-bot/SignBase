@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: PFUniform-Regular, 'PF Uniform';
+        font-size: 200px;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-5 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-6 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-7 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-8 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-2 {
+        opacity: .99;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <text class="cls-1" transform="translate(44 191.95) scale(.74 1)"><tspan class="cls-6" x="0" y="0">SIG</tspan><tspan class="cls-7" x="469.38" y="0">N</tspan><tspan class="cls-5" x="626.73" y="0">B</tspan><tspan class="cls-8" x="783.91" y="0">AS</tspan><tspan class="cls-4" x="1096.83" y="0">E</tspan></text>
+  <g>
+    <path class="cls-3" d="M860.33,261.3h-61.96c-93.35,161.68-187.45,324.66-280.79,486.34,0,0,30.98,53.66,30.98,53.66"/>
+    <path class="cls-2" d="M937.47,233.63s-15.33-26.51-15.78-27.33H80.3c-.44.75-15.78,27.34-15.78,27.34,140.02,242.55,280.64,486.09,420.69,728.66h31.56c35.64-61.72,420.7-728.67,420.7-728.67ZM906.29,233.64c-134.93,233.7-270.37,468.3-405.3,702C365.99,701.82,230.5,467.11,95.49,233.3h811l-.2.34Z"/>
+    <path class="cls-3" d="M533.17,828.64c-93.34-161.66-187.45-324.68-280.79-486.34h-61.97l-.19.33s311.58,539.67,311.58,539.67h.39l30.98-53.66Z"/>
+    <path class="cls-3" d="M766.8,261.3H143.66l-.2.34s30.98,53.66,30.98,53.66h561.58"/>
+    <path class="cls-3" d="M610.91,531.3h-61.96s46.57-80.67,46.57-80.67c0,0-186.86-.33-186.86-.33,0,0-23.61-40.18-31.57-54h312.16s30.98-53.66,30.98-53.66h-436.48s93.33,161.66,93.33,161.66h125.11c-.26.43-15.34,26.57-15.59,27l-93.73.34s108.92,188.66,108.92,188.66M423.86,531.3,501.88,652.3l-15.5-27h31l-15.5,27ZM516.91,566.3l-15.04,27-15.96-27h31Z"/>
+  </g>
+</svg>

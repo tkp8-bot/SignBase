@@ -1,5 +1,3 @@
-<?php require_once("../resources/config.php"); ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,9 +13,8 @@
 <body>
     <header>
         <nav>
-        
+            
         </nav>
-        <h1>SignBase</h1>
     </header>
 
     <main>
