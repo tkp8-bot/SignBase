@@ -12,15 +12,16 @@
 <body>
     <header>
         <nav>
-            <a class=" header-item" href="../../dashboard">Lorem</a>
-            <a class="header-item">Lorem</a>
-            <a class="header-item">Lorem</a>
-            <button type="button" class="btn btn-primary">Primary</button>
-            <div>
-                <a class="header-item__logo"><img src="assets/logo/logo_white.svg"></a>
-            </div>
-            <a class="header-item">Lorem</a>
-            <a class="header-item__search-bar">search-bar</a>
+            <ul class="nav_links">
+                <li><a class=" header-item" href="#">Products</a></li>
+                <li>
+                    <div>
+                        <a class="header-item__logo" href="#"><img src="assets/logo/logo_white.svg" class="logo" alt="logo"></a>
+                    </div>
+                </li>
+                <li><a class="header-item" href="#">Contact</a></li>
+                <li><a class="header-item__search-bar" href="#">search-bar</a></li>
+            </ul>
         </nav>
     </header>
 
