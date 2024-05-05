@@ -15,6 +15,7 @@
             <a class=" header-item" href="../../dashboard">Lorem</a>
             <a class="header-item">Lorem</a>
             <a class="header-item">Lorem</a>
+            <button type="button" class="btn btn-primary">Primary</button>
             <div>
                 <a class="header-item__logo"><img src="assets/logo/logo_white.svg"></a>
             </div>
