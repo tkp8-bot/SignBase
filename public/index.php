@@ -10,25 +10,21 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
+        <div class="flex flex-jc-sb flex-ai-c">
+            <div class="login">login</div>
+            <div class="search-bar">search bar</div>
+        </div>
         <nav>
-            <ul class="nav_links">
-                <li><a class=" header-item" href="#">Products</a></li>
-                <li>
-                    <div>
-                        <a class="header-item__logo" href="#"><img src="assets/logo/logo_white.svg" class="logo" alt="logo"></a>
-                    </div>
-                </li>
-                <li><a class="header-item" href="#">Contact</a></li>
-                <li><a class="header-item__search-bar" href="#">search-bar</a></li>
+            <ul class="header__links flex flex-jc-sb flex-ai-c">
+                <li class="navigation__element"><a href="#">Products</a></li>
+                <li class="navigation__element"><a href="#"><img src="assets/logo/logo_white.svg" alt="SIGNBASE"></a></li>
+                <li class="navigation__element"><a href="#">Contact</a></li>
             </ul>
         </nav>
+        <div class="header__menu"></div>
     </header>
-
     <main>
-        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. A tempora sed eos fugiat, consequatur omnis modi
-            repudiandae cum. Expedita quae tenetur molestiae similique. Assumenda sint ipsa possimus aperiam iste non.
-        </p>
     </main>
 
     <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>

@@ -5,6 +5,7 @@ const autoprefixer = require("autoprefixer");
 const cssnano = require("cssnano");
 const terser = require("gulp-terser");
 const babel = require("gulp-babel");
+const browsersync = require("browser-sync").create();
 
 function scssTask() {
   return src("app/scss/style.scss", { sourcemaps: true })
@@ -21,7 +22,31 @@ function jsTask() {
 }
 
 function watchTask() {
-  watch(["app/scss/**/*.scss", "app/**/*.js"], series(scssTask, jsTask));
+  watch("*.html", browsersyncReload);
+  watch(
+    ["app/scss/**/*.scss", "app/**/*.js"],
+    series(scssTask, jsTask, browsersyncReload)
+  );
 }
 
-exports.default = series(scssTask, jsTask, watchTask);
+function browsersyncServe(cb) {
+  browsersync.init({
+    open: "external",
+    host: "localhost",
+    proxy: "localhost/sign_base/public",
+    notify: {
+      styles: {
+        top: "auto",
+        bottom: "0",
+      },
+    },
+  });
+  cb();
+}
+
+function browsersyncReload(cb) {
+  browsersync.reload();
+  cb();
+}
+
+exports.default = series(scssTask, jsTask, browsersyncServe, watchTask);

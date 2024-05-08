@@ -12,6 +12,8 @@
   "dependencies": {
     "autoprefixer": "^10.4.19",
     "bootstrap": "^5.3.3",
+    "browser-sync": "^3.0.2",
+    "browsersync": "^0.0.1-security",
     "cssnano": "^7.0.1",
     "gulp": "^5.0.0",
     "gulp-babel": "^8.0.0",
