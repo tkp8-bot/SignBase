@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="dist/style.css">
     <title>SignBase</title>
 </head>
+
 <body>
 <?php require_once("../resources/config.php")?>
 <?php include(TEMPLATE_FRONT . DS . "header.php")?>
