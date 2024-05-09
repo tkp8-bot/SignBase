@@ -1,0 +1,16 @@
+.header {
+  > nav {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  &__links {
+    list-style-type: none;
+    font-family: var(--pf-uniform);
+    font-size: clamp(1rem, 2.1vw, var(--font-lg));
+    &--logo {
+      width: 10vw;
+      min-width: 4.4em;
+      max-width: 4.2em;
+    }
+  }
+}

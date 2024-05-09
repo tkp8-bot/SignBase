@@ -16,15 +16,28 @@ body {
   min-height: 100vh;
   font-family: var(--input-mono);
   font-weight: 400;
-  font-size: rem(18);
+  font-size: rem(16);
   background-color: var(--background-color);
   color: var(--text-color);
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
 }
 
 .flex {
   display: flex;
   &-jc-sb {
     justify-content: space-between;
+  }
+  &-jc-sa {
+    justify-content: space-around;
   }
   &-jc-c {
     justify-content: center;
