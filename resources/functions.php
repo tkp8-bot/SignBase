@@ -32,6 +32,18 @@ function get_products() {
     confirm($query);
 
     while($row = fetch_array($query)) {
-        echo $row['product_price'];}
+        $product = <<<DELIMETER
+        <div class="card">
+            <img class="card-img-top" src={$row['product_image']} alt="product image">
+            <div class="card-body">
+                <strong class="card-text">{$row['product_title']}</strong>
+                {$row['product_price']}$
+                <p>{$row['product_description']}</p>
+            </div>
+        </div>
+        DELIMETER;
+
+        echo $product;
+    }
 
 }
