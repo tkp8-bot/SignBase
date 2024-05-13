@@ -31,12 +31,15 @@ img {
   max-width: 100%;
 }
 
-.container {
-  padding: 4em;
+.container-fw {
+  width: 100%;
   margin: 0;
+  padding: 3em;
+}
+
+.grid-container {
   display: grid;
-  grid-template-rows: 100%;
-  grid-template-columns: 30% 70%;
+  margin: 0;
 }
 
 .flex {

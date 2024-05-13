@@ -32,9 +32,11 @@ function get_products() {
     confirm($query);
 
     while($row = fetch_array($query)) {
+        $uncolored = $row['product_image'];
+        $colored = $row['product_image_colored'];
         $product = <<<DELIMETER
         <div class="card">
-            <img class="card-img-top" src={$row['product_image']} alt="product image">
+            <img class="card-img-top" src={$uncolored} onmouseover='hover(this, {$colored});' onmouseout='unhover(this, {$uncolored});' alt="product image">
             <div class="card-body">
                 <strong class="card-text">{$row['product_title']}</strong>
                 {$row['product_price']}$
