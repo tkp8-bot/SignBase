@@ -1,4 +1,3 @@
-Categories 
 <?php 
     $query = "SELECT * FROM categories";
     $send_query = mysqli_query($connection, $query);
@@ -7,3 +6,4 @@ Categories
         echo "<a href='#' class='list-group-item'>{$row['cat_title']}</a>";
     }
 ?>
+<br>The Vault

@@ -39,7 +39,7 @@ function get_products() {
             <img class="card-img-top" src={$uncolored} onmouseover='hover(this, {$colored});' onmouseout='unhover(this, {$uncolored});' alt="product image">
             <div class="card-body">
                 <strong class="card-text">{$row['product_title']}</strong>
-                {$row['product_price']}$
+                &#36;{$row['product_price']}
                 <p>{$row['product_description']}</p>
             </div>
         </div>

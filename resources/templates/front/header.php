@@ -11,8 +11,8 @@
     <body></body>
     <header class="header">
         <div class="flex flex-jc-sb flex-ai-c">
-            <div class="login">LOGIN</div>
             <div class="search-bar">search bar</div>
+            <a href="login.php"><img class="login" src="assets/logo/sb_baba.png"></a>
         </div>
         <nav>
             <ul class="header__links flex flex-jc-sa flex-ai-c">
