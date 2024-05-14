@@ -5,6 +5,22 @@ function redirect($location) {
     header("Location: $location");
 }
 
+function set_message($msg){
+    if(!empty($msg)){
+        $_SESSION['message'] = $msg;
+    }
+    else{
+        $msg="";
+    }
+}
+
+function display_message(){
+    if(isset($_SESSION["message"])){
+        echo $_SESSION["message"];
+        unset($_SESSION["message"]);
+    }
+}
+
 function query($sql) {
     global $connection;
     return mysqli_query($connection, $sql);
@@ -26,7 +42,6 @@ function fetch_array($result){
     return mysqli_fetch_array($result);
 }
 
-// get products
 function get_products() {
     $query = query(" SELECT * FROM products");
     confirm($query);
@@ -47,5 +62,22 @@ function get_products() {
 
         echo $product;
     }
+}
 
+function login_user(){
+    if(isset($_POST['submit'])){
+        $username = escape_string($_POST['username']);
+        $password = escape_string($_POST['password']);
+
+        $query = query("SELECT * FROM users WHERE username = '{$username}' AND password = '{$password}'");
+        confirm($query);
+
+        if(mysqli_num_rows($query) == 0){
+            set_message("Your Password or Username is wrong.");
+            redirect("login.php");
+        }
+        else{
+            redirect("admin");
+        }
+    }
 }

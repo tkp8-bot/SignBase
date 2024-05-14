@@ -10,9 +10,13 @@
     &--logo {
       width: 10vw;
       min-width: 4.4em;
-      max-width: 4.2em;
+      max-width: 4.9em;
     }
   }
+}
+.top-area {
+  width: 100%;
+  position: absolute;
 }
 .login {
   width: 50px;
