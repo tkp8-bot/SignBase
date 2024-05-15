@@ -3,10 +3,22 @@
   height: 400px;
   border: solid var(--text-color);
   border-radius: 1.2em;
-  background-color: transparent;
+  background-color: #0e0e0e;
   color: inherit;
   &-text {
     font-family: var(--input-mono);
     font-size: var(--font-md);
   }
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: linear-gradient(235deg, #89ff00, #060c21, #00bcd4);
+  z-index: -1;
+  filter: blur(20px);
 }
