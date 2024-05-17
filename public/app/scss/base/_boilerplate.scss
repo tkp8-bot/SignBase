@@ -39,7 +39,8 @@ img {
 
 .grid-container {
   display: grid;
-  margin: 0;
+  justify-items: center;
+  margin: 0 auto;
   padding: 0;
 }
 
