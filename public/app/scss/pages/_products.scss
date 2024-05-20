@@ -1,4 +1,33 @@
 .products {
   gap: 2em;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(275px, 2fr));
+}
+
+#the-vault {
+  padding: 1em;
+  display: block;
+}
+
+.display {
+  width: 20em;
+  height: 60px;
+  margin: 1em;
+  border: solid 2px white;
+  border-radius: 8px;
+}
+
+.keypad {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 1em;
+}
+
+.keypad > .btn {
+  padding-right: 2em;
+  padding-left: 2em;
+  border: outset 3px white;
+  border-radius: 0;
+  &:hover {
+    background-color: transparent;
+  }
 }

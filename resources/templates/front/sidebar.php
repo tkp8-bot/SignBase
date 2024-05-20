@@ -7,17 +7,12 @@
     }
 ?>
 <br>The Vault
-<div class = "grid-container the-vault">
-    <div>1</div>
-    <div>2</div>
-    <div>3</div>
-    <div>4</div>
-    <div>5</div>
-    <div>6</div>
-    <div>7</div>
-    <div>8</div>
-    <div>9</div>
-    <div>*</div>
-    <div>0</div>
-    <div>#</div>
+<div id="the-vault">
+    <div class = "display"></div>
+    <div class = "grid-container keypad">
+        <button class="btn btn-dark">1</button><button class="btn btn-dark">2</button><button class="btn btn-dark">3</button>
+        <button class="btn btn-dark">4</button><button class="btn btn-dark">5</button><button class="btn btn-dark">6</button>
+        <button class="btn btn-dark">7</button><button class="btn btn-dark">8</button><button class="btn btn-dark">9</button>
+        <button class="btn btn-dark">*</button><button class="btn btn-dark">0</button><button class="btn btn-dark">#</button>
+    </dii>
 </div>

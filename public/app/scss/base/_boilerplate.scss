@@ -7,12 +7,12 @@ html {
 *,
 *::before,
 *::after {
+  margin: 0;
+  padding: 0;
   box-sizing: inherit;
 }
 
 body {
-  margin: 0;
-  padding: 0;
   min-height: 120svh;
   font-family: var(--input-mono);
   font-weight: 400;
@@ -42,6 +42,10 @@ img {
   justify-items: center;
   margin: 0 auto;
   padding: 0;
+}
+
+.dialog-container {
+  backdrop-filter: blur(200px);
 }
 
 .flex {
