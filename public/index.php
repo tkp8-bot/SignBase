@@ -5,8 +5,4 @@
 
 </main>
     <?php include(TEMPLATE_FRONT . DS . "login.php")?>
-<script src="app/js/script.js"></script>
-<script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
-</body>
-
-</html>
+    <?php include(TEMPLATE_FRONT . DS . "footer.php")?>
