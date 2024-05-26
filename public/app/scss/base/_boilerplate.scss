@@ -3,6 +3,17 @@ html {
   box-sizing: border-box;
   font-size: 100%;
 }
+html::-webkit-scrollbar {
+  width: 0.2vw;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: var(--text-color);
+  border-radius: 10px;
+  &:hover {
+    background-color: rgb(185, 187, 187);
+  }
+}
 
 *,
 *::before,

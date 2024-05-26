@@ -24,7 +24,7 @@ function jsTask() {
 function watchTask() {
   watch("*.html", browsersyncReload);
   watch(
-    ["app/scss/**/*.scss", "app/**/*.js"],
+    ["app/scss/**/*.scss", "app/js/*.js"],
     series(scssTask, jsTask, browsersyncReload)
   );
 }

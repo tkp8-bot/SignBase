@@ -1,7 +1,7 @@
 <header class="header">
     <div class="top-area flex flex-jc-sb flex-ai-c">
         <div class="search-bar">search bar</div>
-        <a id="login_button"><img class="login" src="assets/logo/sb_baba.svg" alt="login"></a>
+        <a id="login_button" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="login" src="assets/logo/sb_baba.svg" alt="login"></a>
     </div>
     <nav>
         <ul class="header__links flex flex-jc-sa flex-ai-c">
