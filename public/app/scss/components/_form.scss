@@ -1,0 +1,10 @@
+.form-control {
+  border: 2px solid var(--text-color);
+  background-color: transparent;
+}
+.submit-button {
+  padding: 0.2em 0.5em;
+  border: 0.2em outset var(--text-color);
+  background-color: transparent;
+  color: var(--text-color);
+}

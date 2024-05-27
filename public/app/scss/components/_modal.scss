@@ -1,0 +1,13 @@
+.modal-content {
+  border-radius: 20px;
+}
+.glass {
+  border: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(231, 24, 35, 0.3) 0%,
+    rgba(161, 4, 252, 0.3) 100%
+  );
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+}

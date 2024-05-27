@@ -4,14 +4,17 @@ html {
   font-size: 100%;
 }
 html::-webkit-scrollbar {
-  width: 0.2vw;
+  width: 0.3vw;
+}
+
+html::-webkit-scrollbar-track {
+  border: 1px solid white;
 }
 
 html::-webkit-scrollbar-thumb {
   background-color: var(--text-color);
-  border-radius: 10px;
   &:hover {
-    background-color: rgb(185, 187, 187);
+    background: linear-gradient(180deg, #e71823 0%, #a104fc 99%);
   }
 }
 
