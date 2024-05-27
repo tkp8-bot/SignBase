@@ -66,15 +66,15 @@ function get_products() {
 
 function login_user(){
     if(isset($_POST['submit'])){
-        $username = escape_string($_POST['username']);
+        $email = escape_string($_POST['email']);
         $password = escape_string($_POST['password']);
 
-        $query = query("SELECT * FROM users WHERE username = '{$username}' AND password = '{$password}'");
+        $query = query("SELECT * FROM users WHERE email = '{$email}' AND password = '{$password}'");
         confirm($query);
 
         if(mysqli_num_rows($query) == 0){
             set_message("Your Password or Username is wrong.");
-            redirect("login.php");
+            redirect("#");
         }
         else{
             redirect("admin");

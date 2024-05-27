@@ -1,10 +1,17 @@
+.form-group {
+  margin-bottom: 1em;
+}
 .form-control {
   border: 2px solid var(--text-color);
+  border-radius: 20px;
   background-color: transparent;
+  &::placeholder {
+    color: var(--text-color);
+  }
 }
 .submit-button {
   padding: 0.2em 0.5em;
-  border: 0.2em outset var(--text-color);
+  border: 0.2em solid var(--text-color);
   background-color: transparent;
   color: var(--text-color);
 }
