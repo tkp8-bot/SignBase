@@ -18,6 +18,11 @@
   width: 100%;
   position: absolute;
 }
-.login {
+#login-image {
   width: 50px;
+}
+#search-bar {
+  border: 2px solid var(--text-color);
+  padding: 0.3em 3em;
+  border-radius: 1.5em;
 }
