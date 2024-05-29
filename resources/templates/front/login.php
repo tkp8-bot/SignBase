@@ -11,18 +11,18 @@
             <?php login_user(); ?>
             <div class="form-group">
               <label for="exampleInputEmail1">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" name="email" placeholder="&#9993">
+              <input type="email" class="form-control" id="exampleInputEmail1" name="email" placeholder="Enter email">
             </div>
             <div class="form-group">
               <label for="exampleInputPassword1">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1" name="password" placeholder="&#9993">
+              <input type="password" class="form-control" id="exampleInputPassword1" name="password" placeholder="Password">
             </div>
-            <div class="modal-footer">
-              <button name="submit" class="submit-button">Submit</button>
-            </div>
+            <input type="submit" name="submit" class="submit-button">
           </form>
       </div>
-      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
     </div>
   </div>
 </div>
