@@ -1,6 +1,13 @@
 .form-control {
   border: 2px solid var(--text-color);
   background-color: transparent;
+  &::placeholder {
+    color: var(--text-color);
+  }
+  &:focus {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
 }
 .submit-button {
   padding: 0.2em 0.5em;
