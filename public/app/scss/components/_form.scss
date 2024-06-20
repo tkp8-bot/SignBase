@@ -1,13 +1,32 @@
+.btn-close {
+  color: rgba(255, 255, 255, 0.5);
+  &:hover {
+    border: transparent;
+    color: var(--text-color);
+  }
+  &:active {
+    color: var(--text-color);
+  }
+}
 .form-control {
-  border: 2px solid var(--text-color);
+  border: 2px solid rgba(255, 255, 255, 0.5);
   background-color: transparent;
+  color: var(--text-color);
   &::placeholder {
     color: var(--text-color);
   }
   &:focus {
-    background-color: var(--background-color);
+    background-color: transparent;
     color: var(--text-color);
+    box-shadow: var(--text-color);
+    border-color: var(--text-color);
   }
+  &:focus::placeholder {
+    color: transparent;
+  }
+}
+.form-group {
+  margin-bottom: 1em;
 }
 .submit-button {
   padding: 0.2em 0.5em;

@@ -6,9 +6,9 @@
         <?php include(TEMPLATE_FRONT . DS . "sidebar.php")?>
     </aside>
     <main class="container">
-        <div class="grid-container products">
-            <?php get_products() ?>
-        </div>
+            <div class="grid-container products">
+                <?php get_products() ?>
+            </div>
     </main>
 </div>
     <?php include(TEMPLATE_FRONT . DS . "login.php")?>

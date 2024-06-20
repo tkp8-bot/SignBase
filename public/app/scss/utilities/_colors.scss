@@ -1,4 +1,9 @@
 :root {
   --background-color: #0e0e0e;
   --text-color: #ffffff;
+  --primary-gradient: linear-gradient(
+    90deg,
+    rgba(231, 24, 35, 0.3) 0%,
+    rgba(161, 4, 252, 0.3) 100%
+  );
 }

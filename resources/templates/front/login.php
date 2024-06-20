@@ -10,14 +10,13 @@
           <form method="post">
             <?php login_user(); ?>
             <div class="form-group">
-              <label for="exampleInputEmail1">Email address</label>
+              <label for="exampleInputEmail1">EMAIL</label>
               <input type="email" class="form-control" id="exampleInputEmail1" name="email" placeholder="&#9993">
             </div>
             <div class="form-group">
-              <label for="exampleInputPassword1">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1" name="password" placeholder="Password">
+              <label for="exampleInputPassword1">PASSWORD</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" name="password" placeholder="&#128477">
             </div>
-        
             <div class="modal-footer">
               <input type="submit" name="submit" class="submit-button">
             </div>

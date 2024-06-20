@@ -50,14 +50,16 @@ function get_products() {
         $uncolored = $row['product_image'];
         $colored = $row['product_image_colored'];
         $product = <<<DELIMETER
-        <div class="card">
-            <img class="card-img-top" src={$uncolored} onmouseover='hover(this, {$colored});' onmouseout='unhover(this, {$uncolored});' alt="product image">
-            <div class="card-body">
-                <strong class="card-text">{$row['product_title']}</strong>
-                &#36;{$row['product_price']}
-                <p>{$row['product_description']}</p>
+        <a href="product_page.php">
+            <div class="card">
+                <img class="card-img-top" src={$uncolored} onmouseover='hover(this, {$colored});' onmouseout='unhover(this, {$uncolored});' alt="product image">
+                <div class="card-body">
+                    <strong class="card-text">{$row['product_title']}</strong>
+                    &#36;{$row['product_price']}
+                    <p>{$row['product_description']}</p>
+                </div>
             </div>
-        </div>
+        </a>
         DELIMETER;
 
         echo $product;
