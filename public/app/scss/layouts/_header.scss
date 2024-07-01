@@ -1,5 +1,6 @@
 .header {
-  > nav {
+  > nav { 
+    padding-top: 1em;
     padding-left: 2em;
     padding-right: 2em;
   }
@@ -19,10 +20,15 @@
   position: absolute;
 }
 #login-image {
-  width: 50px;
+  width: 4vw;
 }
 #search-bar {
+  width: 12vw;
+  height: 2.2vw;
   border: 2px solid var(--text-color);
   padding: 0.3em 1.5em;
   border-radius: 1.5em;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-size: 0.7em;
 }

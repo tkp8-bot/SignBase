@@ -1,6 +1,6 @@
 <header class="header">
     <div class="top-area flex flex-jc-sb flex-ai-c">
-        <div id="search-bar">search bar</div>
+        <input type="text" id="search-bar" name="search-bar"></input>
         <a id="login-button" data-bs-toggle="modal" data-bs-target="#exampleModal"><img id="login-image" src="assets/logo/sb_baba.svg" alt="login"></a>
     </div>
     <nav>
